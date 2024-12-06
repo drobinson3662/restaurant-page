@@ -1,0 +1,61 @@
+body {
+    background-color: gold;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    /* height: 100vh; */
+    justify-items: center;
+    align-items: start;
+    margin: 0;
+    
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column: 1 / -1;
+    text-align: center;
+    align-content: center;
+    height: 20vh;
+    width: 100vh;
+    /* gap: 15px; */
+}
+
+.content {
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+
+button {
+    background-color: darkorange;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+p {
+    border: 1rem solid darkorange;
+    padding: 10px;
+    background-color: #fde047;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.hours {
+    text-align: center;
+}
+
+p.title {
+    font-size: 25px;
+    border: 1.5rem solid darkorange;
+    text-align: center;
+    border-radius: 25px;
+}
+ 
+
